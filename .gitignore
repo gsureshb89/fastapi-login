@@ -1,0 +1,35 @@
+# Ignore Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Ignore environment files
+.env
+.env.local
+*.ini
+*.toml
+
+# Ignore virtual environment
+venv/
+.env/
+*.venv/
+Pipfile
+Pipfile.lock
+
+# Ignore logs and caches
+logs/
+*.log
+*.sqlite3
+db.sqlite3
+
+# Ignore VS Code and JetBrains IDE files
+.vscode/
+.idea/
+*.iml
+
+# Ignore OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore dependency directories
+node_modules/
